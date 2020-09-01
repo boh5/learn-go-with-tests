@@ -31,7 +31,7 @@ func TestArea(t *testing.T) {
 		got := tt.shape.Area()
 		t.Run(tt.name, func(t *testing.T) {
 			if got != tt.want {
-				t.Errorf("got %.2f want %.2f", got, tt.want)
+				t.Errorf("%#v got %.2f want %.2f", tt.shape, got, tt.want)
 			}
 		})
 	}
