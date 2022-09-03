@@ -1,3 +1,3 @@
 module github.com/dilless/learn-go-with-tests
 
-go 1.14
+go 1.19
